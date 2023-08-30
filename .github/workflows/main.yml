@@ -25,7 +25,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: your-dockerhub-username/your-repo-name:latest
+        tags: sakamonmon/test_build_sample:latest
 
     - name: Notify Slack
       if: always()
